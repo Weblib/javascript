@@ -1,6 +1,7 @@
 # Airbnb JavaScript Style Guide() {
 
-Validations from now
+## Validations from now
+
     prefer-const
     no-var
     one-var
