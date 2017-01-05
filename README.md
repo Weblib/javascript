@@ -1,21 +1,21 @@
 # Airbnb JavaScript Style Guide() {
 
 Validations from now
-  prefer-const
-  no-var
-  one-var
-  explicit comparison (no if(collection.length) but if(collection.length > 0)) (no eslint rule)
-  brace-style
-  space-before-blocks
-  keyword-spacing
-  space-infix-ops
-  requirePaddingNewLinesAfterBlocks
-  comma-dangle => never
-  padded-blocks
-  braces everywhere
-  no-case-declarations
-  no-unneeded-ternary
-  no-nested-ternary
+    prefer-const
+    no-var
+    one-var
+    explicit comparison (no if(collection.length) but if(collection.length > 0)) (no eslint rule)
+    brace-style
+    space-before-blocks
+    keyword-spacing
+    space-infix-ops
+    requirePaddingNewLinesAfterBlocks
+    comma-dangle => never
+    padded-blocks
+    braces everywhere
+    no-case-declarations
+    no-unneeded-ternary
+    no-nested-ternary
 
   Add defaults functions parameters while needed (for the limit in ct routes for example)
   Add for of whenever needed instead of for in workaround
