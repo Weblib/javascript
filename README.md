@@ -2,9 +2,12 @@
 
 ## Validations from now
 
-    prefer-const
-    no-var
-    one-var
+    prefer-const > Done and added to API eslint
+    no-var > Done and added to API eslint
+    one-var > Done and added to API eslint
+    no-unneeded-ternary > Done and added to API eslint
+    no-nested-ternary > Done and added to API eslint
+
     explicit comparison (no if(collection.length) but if(collection.length > 0)) (no eslint rule)
     brace-style
     space-before-blocks
@@ -15,8 +18,6 @@
     padded-blocks
     braces everywhere
     no-case-declarations
-    no-unneeded-ternary
-    no-nested-ternary
 
   Add defaults functions parameters while needed (for the limit in ct routes for example)
   Add for of whenever needed instead of for in workaround
